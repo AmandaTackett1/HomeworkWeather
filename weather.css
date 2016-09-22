@@ -1,18 +1,99 @@
-div#container{
-    background-color: #333;
-    height: 1400px;
-    border: 1px solid gold;
-}
-img{
-    height: 500px;
-   border:1px solid antiquewhite;
-   border-radius: 25px;
-   position: relative;
+body{
+    background-color: gray;
 }
 
-.row{
-    margin: 35px;
+.card-block1{
+    background-image: url(http://bit.ly/2ckN2Ho);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    background-position: top left;
+    border: 2px solid cornflowerblue;
+    border-radius: 25px;
+
+}
+.card-block2{
+    background-image: url(http://bit.ly/2d6IW7g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    background-position: top left;
+    border: 2px solid cornflowerblue;
+    border-radius: 25px;
+}
+.card-block3{
+    background-image: url(http://bit.ly/2cOCXGt);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    background-position: top left;
+    border: 2px solid cornflowerblue;
+    border-radius: 25px;
+}
+.card-block4{
+    background-image: url(http://bit.ly/2cuNDtu);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    background-position: top left;
+    border: 2px solid cornflowerblue;
+    border-radius: 25px;
+}
+.card-block5{
+    background-image: url(http://bit.ly/2csuRmt);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    background-position: top left;
+    border: 2px solid cornflowerblue;
+    border-radius: 25px;
+}
+.card-block6{
+    background-image: url(http://bit.ly/2d6JOZG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    margin: 5px;
+    background-position: top left;
+    border: 2px solid cornflowerblue;
+    border-radius: 25px;
+}
+.card-text{
+    color: white;
     text-align: center;
-    font-size: 40px;
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14;
+}
+.card-title{
+    text-align: center;
+    color: white;
+}
+.glyphicon-plus{
+    top: 300px;
+    color:lime;
+    font-size: 20px;
+   text-align: center;
+}
+a{
+    color: white;
+    top: 300px;
+    left: 200px;
+
 }
