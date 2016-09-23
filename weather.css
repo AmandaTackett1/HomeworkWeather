@@ -1,6 +1,17 @@
 body{
     background-color: gray;
 }
+.Tequila{
+    background-color: darkblue;
+    list-style: none;
+    word-spacing: 15px;
+    border: 1px cornflowerblue solid;
+    height: 50px;
+    text-align: center;
+}
+li{
+    display: inline;
+}
 
 .card-block1{
     background-image: url(http://bit.ly/2ckN2Ho);
@@ -9,7 +20,7 @@ body{
     overflow: hidden;
     width: 300px;
     height: 450px;
-    margin: 10px;
+    margin: 5px;
     background-position: top left;
     border: 2px solid cornflowerblue;
     border-radius: 25px;
@@ -22,20 +33,20 @@ body{
     overflow: hidden;
     width: 300px;
     height: 450px;
-    margin: 10px;
+    margin: 5px;
     background-position: top left;
     border: 2px solid cornflowerblue;
     border-radius: 25px;
 }
 .card-block3{
-    background-image: url(http://bit.ly/2cOCXGt);
+    background-image: url(http://bit.ly/2dlvY6i);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     width: 300px;
     height: 450px;
-    margin: 10px;
-    background-position: top left;
+    margin: 5px;
+    background-position: top;
     border: 2px solid cornflowerblue;
     border-radius: 25px;
 }
@@ -46,7 +57,7 @@ body{
     overflow: hidden;
     width: 300px;
     height: 450px;
-    margin: 10px;
+    margin: 5px;
     background-position: top left;
     border: 2px solid cornflowerblue;
     border-radius: 25px;
@@ -58,7 +69,7 @@ body{
     overflow: hidden;
     width: 300px;
     height: 450px;
-    margin: 10px;
+    margin: 5px;
     background-position: top left;
     border: 2px solid cornflowerblue;
     border-radius: 25px;
@@ -75,7 +86,7 @@ body{
     border: 2px solid cornflowerblue;
     border-radius: 25px;
 }
-.card-text{
+/*.card-text{
     color: white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -84,16 +95,31 @@ body{
 .card-title{
     text-align: center;
     color: white;
-}
-.glyphicon-plus{
+}*/
+/*.glyphicon-plus{
     top: 300px;
     color:lime;
     font-size: 20px;
-   text-align: center;
-}
+   text-align: center;*/
+/*}*/
 a{
     color: white;
     top: 300px;
     left: 200px;
-
 }
+h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
