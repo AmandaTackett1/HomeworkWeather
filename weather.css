@@ -1,125 +1,96 @@
 body{
-    background-color: gray;
+    background-image: url(http://bit.ly/2d9VLie);
 }
-.Tequila{
-    background-color: darkblue;
-    list-style: none;
-    word-spacing: 15px;
-    border: 1px cornflowerblue solid;
-    height: 50px;
-    text-align: center;
+.container-fluid{
+    background-color: white;
 }
-li{
-    display: inline;
-}
-
-.card-block1{
-    background-image: url(http://bit.ly/2ckN2Ho);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: 300px;
-    height: 450px;
-    margin: 5px;
-    background-position: top left;
-    border: 2px solid cornflowerblue;
-    border-radius: 25px;
-
-}
-.card-block2{
-    background-image: url(http://bit.ly/2d6IW7g);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: 300px;
-    height: 450px;
-    margin: 5px;
-    background-position: top left;
-    border: 2px solid cornflowerblue;
-    border-radius: 25px;
-}
-.card-block3{
-    background-image: url(http://bit.ly/2dlvY6i);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: 300px;
-    height: 450px;
-    margin: 5px;
-    background-position: top;
-    border: 2px solid cornflowerblue;
-    border-radius: 25px;
-}
-.card-block4{
-    background-image: url(http://bit.ly/2cuNDtu);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: 300px;
-    height: 450px;
-    margin: 5px;
-    background-position: top left;
-    border: 2px solid cornflowerblue;
-    border-radius: 25px;
-}
-.card-block5{
-    background-image: url(http://bit.ly/2csuRmt);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: 300px;
-    height: 450px;
-    margin: 5px;
-    background-position: top left;
-    border: 2px solid cornflowerblue;
-    border-radius: 25px;
-}
-.card-block6{
-    background-image: url(http://bit.ly/2d6JOZG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: 300px;
-    height: 450px;
-    margin: 5px;
-    background-position: top left;
-    border: 2px solid cornflowerblue;
-    border-radius: 25px;
-}
-/*.card-text{
-    color: white;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14;
-}
-.card-title{
-    text-align: center;
-    color: white;
-}*/
-/*.glyphicon-plus{
-    top: 300px;
-    color:lime;
+.dropdown-toggle{
+    background-color:lightslategrey;
     font-size: 20px;
-   text-align: center;*/
-/*}*/
-a{
-    color: white;
-    top: 300px;
-    left: 200px;
+    float: left;
 }
-h3{
-    text-align: center;
-    color: white;
-    font-size: 20px;
+.buttons{
+  position:relative;
+}
+input#newZip{
+    background-color: white;;
+    color:black
+}
+#share-buttons img {
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
 }
 h1{
     text-align: center;
-    color: white;
-    font-size: 30px;
+    background-color: royalblue;
+    margin: 0px;
 }
-p{
+h4{
     text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+
+}
+.span_2_of_2{
+    background-image: url(http://bit.ly/2d7m7iU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 450px;
+    margin: 40px;
+    background-position: top left;
+    border: 2px solid royalblue;
+    border-radius: 25px;
+}
+div{
+    color: cornflowerblue;
     font-size: 20px;
+    text-align: center;
+    margin:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#share-button img{
+    display: inline;
+}
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
 }
 
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 5%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 500px;
+}
+.span_1_of_2 {
+	width: 300px;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }}

@@ -2,101 +2,89 @@
 <html>
 
 <head>
-    <title>Weather App</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Official Bootstrap -->
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
-    <!--Our Project-->
-    <link rel="stylesheet" href="weather.css">
+  <title>Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Official Bootstrap -->
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+  <!--Our Project-->
+  <link rel="stylesheet" href="D.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="Tequila">
-                <li><a href="https://www.weather.com">Home</a></li>
-                <li><a href="https://www.facebook.com">Facebook</a></li>
-                <li><a href="https://github.com/IzaakPrats/teky1-wiki/wiki/Week-3-Project">GitHub</a></li>
-        </div>
-    </nav>
-    <div id="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card card-block1">
-                    <h3 class="PaintsvilleCityName"></h3>
-                    <h1 class="PaintsvilleTempCall"></h1>
-                    <p class="PaintsvilledewPoint"></p>
-                    <p class="PaintsvilletemperatureMax"></p>
-                    <p class="PaintsvilletemperatureMin"></p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card card-block2">
-                    <h3 class="PrestonsburgCityName"></h3>
-                    <h1 class="PrestonsburgTempCall"></h1>
-                    <p class="PrestonsburgdewPoint"></p>
-                    <p class="PrestonsburgtemperatureMax"></p>
-                    <p class="PrestonsburgtemperatureMin"></p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card card-block3">
-                    <h3 class="ParisCityName"></h3>
-                    <h1 class="ParisTempCall"></h1>
-                    <p class="ParisdewPoint"></p>
-                    <p class="ParistemperatureMax"></p>
-                    <p class="ParistemperatureMin"></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-4">
-                <!--<div class="row4">-->
-                <div class="card card-block4">
-                    <h3 class="DisneyWorldName"></h3>
-                    <h1 class="DisneyWorldTempCall"></h1>
-                    <p class="DisneyWorlddewPoint"></p>
-                    <p class="DisneyWorldtemperatureMax"></p>
-                    <p class="DisneyWorldtemperatureMin"></p>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-                <!--<div class="row5">-->
-                <div class="card card-block5">
-                    <h3 class="MountainName"></h3>
-                    <h1 class="MountainTempCall"></h1>
-                    <p class="MountaindewPoint"></p>
-                    <p class="MountaintemperatureMax"></p>
-                    <p class="MountaintemperatureMin"></p>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-                <!--<div class="row6">-->
-                <div class="card card-block6">
-                    <h3 class="HellName"></h3>
-                    <h1 class="HellTempCall"></h1>
-                    <p class="HelldewPoint"></p>
-                    <p class="HelltemperatureMax"></p>
-                    <p class="HelltemperatureMin"></p>
-                </div>
-            </div>
-        </div>
+  <h1> Your Weather OneStop</h1>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="https://www.weather.com">Go to the Weather Channel</a></li>
+        <li><a href="https://AmandaTackett1.github.io">My Personal Page</a></li>
+        <li><a href="https://interapt.com">Check out what we do!!!!</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="https://news.google.com">Google News</a></li>
+        <li role="separator" class="divider"></li>
+      </ul>
     </div>
+  </nav>
+
+  <div class="section group">
+    <div class="col span_1_of_2">
+      <h4>This is my first mobile web App. It calls current conditions based on your zipcode or address. Hope you enjoy! The
+        link buttons will help you share my personal webpage that I'll be building thru my adventures with Teky1'</h4>
+
+    </div>
+    <div class="col span_2_of_2">
+      <div id="weatherTo">
+      </div>
+    </div>
+    <div class="buttons" <label for="newzipcode">
+      </label><br>
+      <input type="text" placeholder="Enter Zip Code/Address" id="newZipCode">
+      <button type="button" id="new">Look for Weather</button></div>
+  </div>
 
 
+  <div id="share-buttons">
+    <a href="http://www.facebook.com/sharer.php?u=https://AmandaTackett1.github.io" id="button">
+      <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
 
+    <!-- Google+ -->
+    <a href="https://plus.google.com/share?url=https://AmandaTackett1.github.io" target="_blank">
+      <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+    </a>
 
-    <!-- Official JQuery -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-    <!-- Official Bootstrap -->
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-    <!-- Our project JS -->
-    <script src="weatherboot.js"></script>
-    <script src="weatherJS.js"></script>
+    <!-- LinkedIn -->
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://AmandaTackett1.github.io" target="_blank">
+      <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+    </a>
+
+    <!-- Twitter -->
+    <a href="https://twitter.com/share?url=https://AmandaTackett1.github.io" target="_blank">
+      <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+  </div>
+  
+
+    <a href="http://www.accuweather.com/en/us/new-york-ny/10007/current-weather/349727" class="aw-widget-legal">
+    <!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which 
+an be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement 
+(in English) which can be found at http://www.accuweather.com/en/privacy.
+-->
+  </a>
+  <div id="awtd1474861649968" class="aw-widget-36hour" data-locationkey="" data-unit="f" data-language="en-us" data-useip="true"
+    data-uid="awtd1474861649968" data-editlocation="true"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+
+  <!-- Official JQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <!-- Official Bootstrap -->
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+  <!-- Our project JS -->
+  <script src="weatherboot.js"></script>
+  <script src="Dummy.js"></script>
 
 </body>
 
